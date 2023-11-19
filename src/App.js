@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <div className="main-wrapper">
-        <h1>Click Dropdowns</h1>
+        <h2>Click Dropdowns</h2>
         <Button />
       </div>
     </div>

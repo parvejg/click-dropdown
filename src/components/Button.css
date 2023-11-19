@@ -1,18 +1,26 @@
 .dropdown-link {
-  padding: 10px 13px;
   background-color: white;
-  border-radius: 6px;
   cursor: pointer;
   border: hidden;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   font-size: large;
+  padding: 0.4rem;
 }
 .dropdown-link:hover {
   background-color: gainsboro;
 }
 .click-btn {
-  background-color: lawngreen;
-  padding: 5px 17px;
+  background-color: rgb(0, 202, 252);
   font-size: large;
   border: hidden;
+  min-width: 50px;
+  min-height: 26%;
+  color: white;
+}
+.dropdown-links-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 8rem;
+  height: 10rem;
+  padding: 5px;
 }
